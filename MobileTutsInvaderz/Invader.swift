@@ -5,7 +5,7 @@ class Invader: SKSpriteNode {
     
     var invaderRow = 0
     var invaderColumn = 0
-    override init() {
+    init() {
         let texture = SKTexture(imageNamed: "invader1")
         super.init(texture: texture, color: SKColor.clearColor(), size: texture.size())
         self.name = "invader"
